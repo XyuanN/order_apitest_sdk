@@ -5,6 +5,7 @@ import os
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from tools.oid import OrderOid
 
+
 class ApitestFast(object):
     def __init__(self, phone):
         self._pid = OrderOid(phone).get_pid()
