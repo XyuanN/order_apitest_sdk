@@ -4,6 +4,7 @@ import os
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from mypackage.modules.order import OrderFast
 
+
 @pytest.mark.parametrize("phone", ["00012017804"])
 def test_end(phone):
     '''测试结束订单
