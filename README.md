@@ -19,9 +19,11 @@ Order APITest SDK 是一个实现线上环境快车订单流转的 sdk，通过�
 
     ```bash
     from orderflow import OrderFlowFast
+    
     # 创建订单
     hailing_client = OrderFlowFast()
     variables = hailing_client.create_order(phone)
+    
     # 订单流转
     hailing_client.accept_order(variables)
     hailing_client.driver_arrived(variables)
