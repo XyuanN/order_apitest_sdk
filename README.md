@@ -9,7 +9,7 @@ Order APITest SDK 是一个实现线上环境快车订单流转的 sdk，通过�
     git clone git@git.xiaojukeji.com:dmq/order_apitest_sdk.git
     ```
 
-2. **安装依赖s**
+2. **安装依赖**
 
     ```bash
     pip install -r requirements.txt
