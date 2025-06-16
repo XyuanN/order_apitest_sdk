@@ -20,7 +20,6 @@ class OrderFlowFast(OrderFlow):
         self._low_oid = OrderOid(phone).get_low_oid(self._pid)
         self._high_oid = OrderOid(phone).get_high_oid(self._low_oid)
         self._oid = OrderOid(phone).get_oid(self._low_oid)
-        
         variables = [
             {
                 "name":"highOid",
