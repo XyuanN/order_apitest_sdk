@@ -5,7 +5,6 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from services.apitest import ApitestRequest
 
 
-#apitest请求为父类，订单流转为其中的一个子类
 class OrderFlow(ApitestRequest):
     def __init__(self):
         self.uuid_1 = ""
