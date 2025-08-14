@@ -11,6 +11,7 @@ if __name__ == '__main__':
     hailing_client = OrderFlowFast()
     variables = hailing_client.create_order(phone)
     
+    
     # 订单流转
     hailing_client.accept_order(variables)
     hailing_client.driver_arrived(variables)
